@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import Login from './Button/Login';
+import Signup from './Button/Signup'
 
 const Navbar = () => {
     return (
@@ -24,13 +26,16 @@ const Navbar = () => {
                                 </ul>
                             </li> */}
                             <li className="nav-item">
+                                <Link className="nav-link" to="/home">Home</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/services">Services</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                                <Link className="nav-link" to="/product">Product</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">Contact Us</Link>
@@ -45,11 +50,15 @@ const Navbar = () => {
                                     <li><a className="dropdown-item" href="/">Something else here</a></li>
                                 </ul>
                             </li>
-                            <div className="mx-3">
-                                <button type="button" className="btn1 mx-2">Login</button>
-                                <button type="button" className="btn2 mx-2">Sign Up</button>
-                            </div>
-                            <div className="form-check form-switch">
+                            
+                            <button to="/cart" className="btn btn-outline-primary mx-2">
+                <span className="fa fa-shopping-cart mx-2"></span>
+            </button>
+                            <Login/>
+                            
+                            
+                            <Signup/>
+                            <div className="form-check form-switch ms-2">
                                 <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
                                 <label className="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
                             </div>
