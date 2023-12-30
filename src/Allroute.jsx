@@ -5,6 +5,7 @@ import Service from './Pages/Service';
 import Product from './Pages/Product';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
+import Signup from './Components/Button/Signup';
 
 function Allroute() {
   return (
