@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Navbar from './Components/Navbar';
 import Allroute from './Allroute';
+import Footer from './Components/Button/Footer';
 import Home from './Pages/Home';
 
 
@@ -11,7 +12,8 @@ function App() {
     <>
         <Navbar/>
         <Allroute/>
-        
+        <Home/>
+        <Footer/>
         
 
     </>
