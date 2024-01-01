@@ -9,6 +9,12 @@ import banner1 from '../img/b17.jpg'
 import banner2 from '../img/b10.jpg'
 
 
+import blog1 from '../img/blog/blog-1.jpg'
+import blog2 from '../img/blog/blog-2.jpg'
+import blog3 from '../img/blog/blog-3.jpg'
+import blog4 from '../img/blog/blog-4.jpg'
+
+
 
 const Home = () => {
   return <>
@@ -122,6 +128,83 @@ const Home = () => {
             </div>
           </div>
           
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section className="blogs p-5">
+  <div className="container-xxl">
+    <div className="row">
+      <div className="col-12 text-center">
+        <h1 className="mb-3">What our customers say...</h1>
+        <p className="mb-4">Our customers never miss a bit on providing feedback</p>
+      </div>
+      <div className="col-md-3 col-sm-6 mb-4">
+        <div className="card">
+          <img src={blog1} className="card-img-top img-fluid" alt="..." />
+          <div className="card-body">
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+            <Link to='about'>
+            <button className="mt-4">Learn more</button>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-3 col-sm-6 mb-4">
+        <div className="card">
+          <img src={blog2} className="card-img-top img-fluid" alt="..." />
+          <div className="card-body">
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+            <Link to='about'>
+            <button className="mt-4">Learn more</button>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-3 col-sm-6 mb-4">
+        <div className="card">
+          <img src={blog3} className="card-img-top img-fluid" alt="..." />
+          <div className="card-body">
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+            <Link to='about'>
+            <button className="mt-4">Learn more</button>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-3 col-sm-6 mb-4">
+        <div className="card">
+          <img src={blog4} className="card-img-top img-fluid" alt="..." />
+          <div className="card-body">
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+            <Link to='about'>
+            <button className="mt-4">Learn more</button>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section className="news-letter p-5">
+    <div className="container-xxl">
+      <div className="row g-3">
+        <div className="col-md-6">
+          <div className="d-flex flex-column align-items-center">
+            <h2 className='mb-3'>Sign Up for a newsletter</h2>
+            <h5>Get email updates on all our <Link className="text-decoration-none">special offers</Link></h5>
+          </div>
+        </div>
+        <div className="col-md-6 details d-flex flex-column justify-content-center">
+          <div className="input-group mb-3">
+            <input type="text" id='news-input' className="form-control" placeholder="@example.com" aria-label="@example.com" aria-describedby="basic-addon2" />
+            <button className="input-group-text" id="basic-addon2">Submit</button>
+          </div>
         </div>
       </div>
     </div>
