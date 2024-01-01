@@ -12,7 +12,7 @@ function App() {
     <>
         <Navbar/>
         <Allroute/>
-        <Home/>
+        {/* <Home/> */}
         <Footer/>
         
 

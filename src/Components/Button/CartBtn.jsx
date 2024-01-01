@@ -9,7 +9,7 @@ const CartBtn = () => {
     return (
         <>
             <NavLink to="/cart" className="btn btn-primary ms-2">
-                <span className="fa fa-shopping-cart me-1"></span>
+                <span className="fa fa-shopping-cart text-white me-1"></span>
             </NavLink>
 
             

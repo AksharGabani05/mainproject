@@ -9,7 +9,7 @@
 
 .nav_ul a {
   font-size: 1.05rem;
-  color:white !important;
+  color:black !important;
   font-weight: 400;
   letter-spacing: 0.5px;
 }
@@ -30,4 +30,91 @@
 .logo{
   width: 20%;
 }
+
+
+.banner .back-details{
+  background: url(/src/img/back.jpg);
+  height: 50vh;
+  background-position: top 25% right 0;
+  background-size: cover;
+  width: 100%;
+  padding: 0 80px;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.banner .back-details h1{
+  font-size: 52px;
+}
+.banner .back-details h2{
+  font-size: 32px;
+}
+
+.banner .back-details p{
+  color: var(--primary1);
+}
+
+@media only screen and (max-width: 768px) {
+  .banner .back-details {
+    height: auto;
+    background-position: center;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .banner .back-details h1 {
+    font-size: 36px;
+  }
+
+  .banner .back-details h2 {
+    font-size: 24px;
+  }
+}
+
+
+.repair-details{
+  background: url(/src/img/b2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  justify-content: center;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+  
+}
+@media only screen and (max-width: 768px) {
+  .banner .back-details {
+    height: auto;
+    background-position: center;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .b2text {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .b2text1 {
+    font-size: 15px;
+  }
+}
+
+
+.hot-deals .card{
+  padding: 12px 10px;
+}
+
+.hot-deals .card img{
+  min-height: 180px;
+  justify-content: center;
+}
+
 

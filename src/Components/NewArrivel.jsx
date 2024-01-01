@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-const FeaturProducts = () => {
+const NewArrivel = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const FeaturProducts = () => {
 
   return (
     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 p-3">
-      {products.slice(2, 6).map((product) => (
+      {products.slice(1, 5).map((product) => (
         <div className="col mb-5" key={product.id}>
           <div className="card h-100 m-auto">
             <img src={product.image} className="card-img-top img-fluid" alt="..." />
@@ -47,4 +47,4 @@ const FeaturProducts = () => {
   );
 }
 
-export default FeaturProducts;
+export default NewArrivel;
