@@ -12,7 +12,6 @@ function App() {
     <>
         <Navbar/>
         <Allroute/>
-        {/* <Home/> */}
         <Footer/>
         
 

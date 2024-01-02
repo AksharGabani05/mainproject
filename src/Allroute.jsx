@@ -10,7 +10,7 @@ import Signup from './Components/Button/Signup';
 function Allroute() {
   return (
     <Routes>
-      <Route path='/home' element={<Home/>}></Route>
+      <Route path='/' element={<Home/>}></Route>
         <Route path='/about' element={<About/>}></Route>
         <Route path='/services' element={<Service/>}></Route>
         <Route path='/product' element={<Product/>}></Route>

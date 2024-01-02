@@ -137,7 +137,7 @@ const Home = () => {
   <div className="container-xxl">
     <div className="row">
       <div className="col-12 text-center">
-        <h1 className="mb-3">What our customers say...</h1>
+        <h1 className="mb-3 text-warning">What our customers say...</h1>
         <p className="mb-4">Our customers never miss a bit on providing feedback</p>
       </div>
       <div className="col-md-3 col-sm-6 mb-4">

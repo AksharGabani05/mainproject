@@ -1,15 +1,15 @@
 {
   "user": [
     {
-      "user": "",
-      "email": "",
-      "password": "",
+      "username": "akshargabani9425@gmail.com",
+      "email": "akshargabani@gmail.com",
+      "password": "998877",
       "id": 1
     },
     {
-      "user": "akshargabanistar945@gmail.com",
+      "username": "akshargabanistar945@gmail.com",
       "email": "akshargabanistar945@gmail.com",
-      "password": "985628954",
+      "password": "998877",
       "id": 2
     }
   ],
@@ -18,43 +18,43 @@
       "id": 0,
       "image": "path/to/f1.jpg",
       "name": "Slim Fit Dress Shirt",
-      "price": 49.90,
+      "price": 49.9,
       "brand": "Calvin Klein",
       "status": "in stock",
       "rate": "50% Off"
     },
     {
       "id": 1,
-      "image": "https://ibb.co/3S3S6Mb",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Zfnse4rj0geTD3R03VXVS2Wo5lKd1kLYRA&usqp=CAU",
       "name": "Men's Dri-FIT T-Shirt",
-      "price": 24.90,
+      "price": 24.9,
       "brand": "Nike",
       "status": "in stock",
       "rate": "50% Off"
     },
     {
       "id": 2,
-      "image": "path/to/f1.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Zfnse4rj0geTD3R03VXVS2Wo5lKd1kLYRA&usqp=CAU",
       "name": "Women's Badge of Sport Tee",
-      "price": 39.90,
+      "price": 39.9,
       "brand": "Adidas",
       "status": "in stock",
       "rate": "50% Off"
     },
     {
       "id": 3,
-      "image": "path/to/pr4.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Zfnse4rj0geTD3R03VXVS2Wo5lKd1kLYRA&usqp=CAU",
       "name": "Men's 1950s Sportswear T-Shirt",
-      "price": 49.90,
+      "price": 49.9,
       "brand": "Levi s",
       "status": "in stock",
       "rate": "50% Off"
     },
     {
       "id": 4,
-      "image": "path/to/pr5.jpg",
+      "image": "",
       "name": "Men's Tech 2.0 Short Sleeve T-Shirt",
-      "price": 49.90,
+      "price": 49.9,
       "brand": "Under Armour",
       "status": "in stock",
       "rate": "50% Off"
@@ -63,7 +63,7 @@
       "id": 5,
       "image": "path/to/pr6.jpg",
       "name": "Women's Basic Tee, Men's Rebel Bold Tee",
-      "price": 9.90,
+      "price": 9.9,
       "brand": "H&M",
       "status": "in stock",
       "rate": "50% Off"
@@ -72,7 +72,7 @@
       "id": 6,
       "image": "path/to/pr7.jpg",
       "name": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
-      "price": 39.50,
+      "price": 39.5,
       "brand": "Puma",
       "status": "in stock",
       "rate": "50% Off"
@@ -81,63 +81,63 @@
       "id": 7,
       "image": "path/to/pr8.jpg",
       "name": "Women's Classic Fit Crewneck T-Shirt",
-      "price": 29.50,
+      "price": 29.5,
       "brand": "Ralph Lauren"
     },
     {
       "id": 8,
       "image": "path/to/pro1.jpg",
       "name": "Slim Fit Dress Shirt",
-      "price": 49.90,
+      "price": 49.9,
       "brand": "Calvin Klein"
     },
     {
       "id": 9,
       "image": "path/to/pro2.jpg",
       "name": "Men's Dri-FIT T-Shirt",
-      "price": 24.90,
+      "price": 24.9,
       "brand": "Nike"
     },
     {
       "id": 10,
       "image": "path/to/pro3.jpg",
       "name": "Women's Badge of Sport Tee",
-      "price": 39.90,
+      "price": 39.9,
       "brand": "Adidas"
     },
     {
       "id": 11,
       "image": "path/to/pro4.jpg",
       "name": "Men's 1950s Sportswear T-Shirt",
-      "price": 49.90,
+      "price": 49.9,
       "brand": "Levi s"
     },
     {
       "id": 12,
       "image": "path/to/pro5.jpg",
       "name": "Men's Tech 2.0 Short Sleeve T-Shirt",
-      "price": 49.90,
+      "price": 49.9,
       "brand": "Under Armour"
     },
     {
       "id": 13,
       "image": "path/to/pro6.jpg",
       "name": "Women's Basic Tee, Men's Rebel Bold Tee",
-      "price": 9.90,
+      "price": 9.9,
       "brand": "H&M"
     },
     {
       "id": 14,
       "image": "path/to/pro7.jpg",
       "name": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
-      "price": 39.50,
+      "price": 39.5,
       "brand": "Puma"
     },
     {
       "id": 15,
       "image": "path/to/pro8.jpg",
       "name": "Women's Classic Fit Crewneck T-Shirt",
-      "price": 29.50,
+      "price": 29.5,
       "brand": "Ralph Lauren"
     }
   ],
@@ -146,7 +146,7 @@
       "id": 16,
       "image": "path/to/img1.png",
       "name": "Slim Fit Dress Shirt",
-      "price": 49.90,
+      "price": 49.9,
       "brand": "Calvin Klein",
       "status": "in stock",
       "rate": "60% off"
@@ -155,7 +155,7 @@
       "id": 23,
       "image": "path/to/img8.png",
       "name": "Women's Classic Fit Crewneck T-Shirt",
-      "price": 29.50,
+      "price": 29.5,
       "brand": "Ralph Lauren",
       "status": "out of stock",
       "rate": "normal rate"

@@ -10,7 +10,6 @@ const FeaturProducts = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Replace 'http://localhost:3000/products' with the actual URL of your JSON server endpoint
         const response = await axios.get('http://localhost:8090/products');
         setProducts(response.data);
       } catch (error) {

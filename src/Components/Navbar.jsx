@@ -2,14 +2,14 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import Login from './Button/Login';
 import Signup from './Button/Signup'
-import logoImage from '../img/logo.png';
+import logoImage from '../img/logo.jpg';
 
 const Navbar = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-white">
                 <div className="container py-2">
-                    <Link className="navbar-brand" to="/">akshar</Link>
+                    <Link className="navbar-brand" to="/"><img className='logo' src={logoImage} alt="" /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -27,7 +27,7 @@ const Navbar = () => {
                                 </ul>
                             </li> */}
                             <li className="nav-item">
-                                <Link className="nav-link" to="/home">Home</Link>
+                                <Link className="nav-link" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/about">About</Link>

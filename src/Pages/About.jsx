@@ -21,7 +21,7 @@ function About(){
         <div className="row">
           <div className="col-12">
             <div className="shop-details text-center align-items-center">
-              <h1 className="text-white">#Know Us</h1>
+              <h1 className="text-white pt-2">#Know Us</h1>
               <p className='text-white fs-3'>Get to know us more</p>
             </div>
           </div>
