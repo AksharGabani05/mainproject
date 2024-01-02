@@ -16,7 +16,7 @@
   "products": [
     {
       "id": 0,
-      "image": "path/to/f1.jpg",
+      "image": "https://onlineimg.pages.dev/products/f1.jpg",
       "name": "Slim Fit Dress Shirt",
       "price": 49.9,
       "brand": "Calvin Klein",
@@ -25,7 +25,7 @@
     },
     {
       "id": 1,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Zfnse4rj0geTD3R03VXVS2Wo5lKd1kLYRA&usqp=CAU",
+      "image": "https://onlineimg.pages.dev/products/f2.jpg",
       "name": "Men's Dri-FIT T-Shirt",
       "price": 24.9,
       "brand": "Nike",
@@ -34,7 +34,7 @@
     },
     {
       "id": 2,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Zfnse4rj0geTD3R03VXVS2Wo5lKd1kLYRA&usqp=CAU",
+      "image": "https://onlineimg.pages.dev/products/f3.jpg",
       "name": "Women's Badge of Sport Tee",
       "price": 39.9,
       "brand": "Adidas",
@@ -43,7 +43,7 @@
     },
     {
       "id": 3,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Zfnse4rj0geTD3R03VXVS2Wo5lKd1kLYRA&usqp=CAU",
+      "image": "https://onlineimg.pages.dev/products/f4.jpg",
       "name": "Men's 1950s Sportswear T-Shirt",
       "price": 49.9,
       "brand": "Levi s",
@@ -52,7 +52,7 @@
     },
     {
       "id": 4,
-      "image": "",
+      "image": "https://onlineimg.pages.dev/products/f5.jpg",
       "name": "Men's Tech 2.0 Short Sleeve T-Shirt",
       "price": 49.9,
       "brand": "Under Armour",
@@ -61,7 +61,7 @@
     },
     {
       "id": 5,
-      "image": "path/to/pr6.jpg",
+      "image": "https://onlineimg.pages.dev/products/f6.jpg",
       "name": "Women's Basic Tee, Men's Rebel Bold Tee",
       "price": 9.9,
       "brand": "H&M",
@@ -70,7 +70,7 @@
     },
     {
       "id": 6,
-      "image": "path/to/pr7.jpg",
+      "image": "https://onlineimg.pages.dev/products/f7.jpg",
       "name": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
       "price": 39.5,
       "brand": "Puma",
@@ -79,63 +79,63 @@
     },
     {
       "id": 7,
-      "image": "path/to/pr8.jpg",
+      "image": "https://onlineimg.pages.dev/products/f8.jpg",
       "name": "Women's Classic Fit Crewneck T-Shirt",
       "price": 29.5,
       "brand": "Ralph Lauren"
     },
     {
       "id": 8,
-      "image": "path/to/pro1.jpg",
+      "image": "https://onlineimg.pages.dev/products/n1.jpg",
       "name": "Slim Fit Dress Shirt",
       "price": 49.9,
       "brand": "Calvin Klein"
     },
     {
       "id": 9,
-      "image": "path/to/pro2.jpg",
+      "image": "https://onlineimg.pages.dev/products/n2.jpg",
       "name": "Men's Dri-FIT T-Shirt",
       "price": 24.9,
       "brand": "Nike"
     },
     {
       "id": 10,
-      "image": "path/to/pro3.jpg",
+      "image": "https://onlineimg.pages.dev/products/n3.jpg",
       "name": "Women's Badge of Sport Tee",
       "price": 39.9,
       "brand": "Adidas"
     },
     {
       "id": 11,
-      "image": "path/to/pro4.jpg",
+      "image": "https://onlineimg.pages.dev/products/n4.jpg",
       "name": "Men's 1950s Sportswear T-Shirt",
       "price": 49.9,
       "brand": "Levi s"
     },
     {
       "id": 12,
-      "image": "path/to/pro5.jpg",
-      "name": "Men's Tech 2.0 Short Sleeve T-Shirt",
+      "image": "https://onlineimg.pages.dev/products/n5.jpg",
+      "name": "Women's Basic Tee, Men's Rebel Bold Tee",
       "price": 49.9,
       "brand": "Under Armour"
     },
     {
       "id": 13,
-      "image": "path/to/pro6.jpg",
+      "image": "https://onlineimg.pages.dev/products/n6.jpg",
       "name": "Women's Basic Tee, Men's Rebel Bold Tee",
       "price": 9.9,
       "brand": "H&M"
     },
     {
       "id": 14,
-      "image": "path/to/pro7.jpg",
+      "image": "https://onlineimg.pages.dev/products/n7.jpg",
       "name": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
       "price": 39.5,
       "brand": "Puma"
     },
     {
       "id": 15,
-      "image": "path/to/pro8.jpg",
+      "image": "https://onlineimg.pages.dev/products/n8.jpg",
       "name": "Women's Classic Fit Crewneck T-Shirt",
       "price": 29.5,
       "brand": "Ralph Lauren"
@@ -144,7 +144,7 @@
   "products1": [
     {
       "id": 16,
-      "image": "path/to/img1.png",
+      "image": "https://onlineimg.pages.dev/products/img1.png",
       "name": "Slim Fit Dress Shirt",
       "price": 49.9,
       "brand": "Calvin Klein",
@@ -152,8 +152,64 @@
       "rate": "60% off"
     },
     {
+      "id": 17,
+      "image": "https://onlineimg.pages.dev/products/img2.png",
+      "name": "Slim Fit Dress Shirt",
+      "price": 49.9,
+      "brand": "Nike",
+      "status": "in stock",
+      "rate": "60% off"
+    },
+    {
+      "id": 18,
+      "image": "https://onlineimg.pages.dev/products/img3.png",
+      "name": "Women's Badge of Sport Tee",
+      "price": 39.90,
+      "brand": "Adidas",
+      "status": "in stock",
+      "rate": "60% off"
+    },
+    
+    {
+      "id": 19,
+      "image": "https://onlineimg.pages.dev/products/img4.png",
+      "name": "Men's 1950s Sportswear T-Shirt",
+      "price": 39.90,
+      "brand": "Levi s",
+      "status": "in stock",
+      "rate": "60% off"
+    },
+    {
+      "id": 20,
+      "image": "https://onlineimg.pages.dev/products/img5.png",
+      "name": "Men's Tech 2.0 Short Sleeve T-Shirt",
+      "price": 49.90,
+      "brand": "Under Armour",
+      "status": "in stock",
+      "rate": "60% off"
+    },
+      
+    {
+      "id": 21,
+      "image": "https://onlineimg.pages.dev/products/img6.png",
+      "name": "Women's Basic Tee, Men's Rebel Bold Tee",
+      "price": 9.90,
+      "brand": "H&M",
+      "status": "in stock",
+      "rate": "60% off"
+    },
+    {
+      "id": 22,
+      "image": "https://onlineimg.pages.dev/products/img7.png",
+      "name": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
+      "price": 39.90,
+      "brand": "Puma",
+      "status": "in stock",
+      "rate": "60% off"
+    },
+    {
       "id": 23,
-      "image": "path/to/img8.png",
+      "image": "https://onlineimg.pages.dev/products/img8.png",
       "name": "Women's Classic Fit Crewneck T-Shirt",
       "price": 29.5,
       "brand": "Ralph Lauren",

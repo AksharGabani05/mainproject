@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="row justify-content-center justify-content-md-start">
         <div className="col-md-4 col-lg-4 mb-4 mb-md-0 ">
           <h2 className='footer-title mb-3 text-dark'><b>Contact</b></h2>
-          <div className='mb-3 text-dark'><p><b>Address:</b>  Thika town, Naltex building, 2nd floor</p> </div>
+          <div className='mb-3 text-dark'><p><b>Address:</b>   408,AK House , Katargam ,Surat , 395005</p> </div>
           <div className='mb-3 text-dark'><p><b>Phone:</b>  <a className='footer-tel  text-decoration-none' href="tel:+91 9265947002">Call us at +91 9265947002</a></p> </div>
           <div className='mb-4 text-dark'><p><b>Hours:</b>  From 8 a.m To 6 p.m</p> </div>
           <div className='mb-3 text-dark'><p><b>Follow the developer</b></p> </div>

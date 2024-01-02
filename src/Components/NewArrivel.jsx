@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const NewArrivel = () => {
-  const [products, setProducts] = useState([]);
+  const [products1, setProducts1] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         // Replace 'http://localhost:3000/products' with the actual URL of your JSON server endpoint
-        const response = await axios.get('http://localhost:8090/products');
-        setProducts(response.data);
+        const response = await axios.get('http://localhost:8090/products1');
+        setProducts1(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -23,7 +23,7 @@ const NewArrivel = () => {
 
   return (
     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 p-3">
-      {products.slice(1, 5).map((product) => (
+      {products1.slice(1, 5).map((product) => (
         <div className="col mb-5" key={product.id}>
           <div className="card h-100 m-auto">
             <img src={product.image} className="card-img-top img-fluid" alt="..." />
