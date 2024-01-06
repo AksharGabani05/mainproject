@@ -281,3 +281,6 @@ footer .pay img:hover {
   display: flex;
   flex-direction: column;
 }
+.pricetext{
+  font-size: 15px;
+}

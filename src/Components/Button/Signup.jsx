@@ -5,6 +5,7 @@ import { regester } from '../../Redux/Action';
 import { Modal, Button } from 'react-bootstrap';
 import Login from './Login';
 import CartBtn from './CartBtn';
+import AddProduct from '../../Pages/AddProduct';
 
 
 const Signup = () => {
@@ -54,8 +55,9 @@ const Signup = () => {
 
     return (
         <div>
+             {isLoggedIn && <AddProduct />}
+             {isLoggedIn && <CartBtn />}
             
-            <CartBtn/>
              <Login/>
 
             <button

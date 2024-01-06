@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Login from './Button/Login';
 import Signup from './Button/Signup'
 import logoImage from '../img/logo.jpg';
+import AddProduct from '../Pages/AddProduct';
 
 const Navbar = () => {
     return (
@@ -41,8 +42,10 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">Contact </Link>
                             </li>
+                           
                             </ul>
                         <div className='ms-auto'>
+                            
                             <Signup />
                         </div>
                     </div>
