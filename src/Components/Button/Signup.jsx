@@ -55,10 +55,8 @@ const Signup = () => {
 
     return (
         <div>
-             {/* {isLoggedIn && <AddProduct />}
-             {isLoggedIn && <CartBtn />} */}
-             <AddProduct />
-             <CartBtn />
+            
+            <CartBtn/>
              <Login/>
 
             <button

@@ -6,10 +6,6 @@ import Product from './Pages/Product';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Signup from './Components/Button/Signup';
-import AddProduct from './Pages/AddProduct';
-import SingleProduct from './Pages/SingleProduct';
-import CartBtn from './Components/Button/CartBtn';
-import Cart from './Pages/Cart';
 
 function Allroute() {
   return (
