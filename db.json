@@ -1,16 +1,28 @@
 {
   "user": [
     {
-      "username": "akshargabani9425@gmail.com",
-      "email": "akshargabani@gmail.com",
-      "password": "998877",
+      "username": "akshar_gabani__",
+      "email": "akshargabanistar945@gmail.com",
+      "password": "9913608443",
       "id": 1
     },
     {
-      "username": "akshargabanistar945@gmail.com",
-      "email": "akshargabanistar945@gmail.com",
-      "password": "998877",
+      "username": "akshar_gabani__",
+      "email": "akshargabani@gmail.com",
+      "password": "9988",
       "id": 2
+    },
+    {
+      "username": "9913608443",
+      "email": "pavandhameliya486@gmail.com",
+      "password": "/lkjbvc",
+      "id": 3
+    },
+    {
+      "username": "Akshar Gabani",
+      "email": "vishalpatel@gmail.com",
+      "password": "9852541254",
+      "id": 4
     }
   ],
   "products": [
@@ -164,17 +176,16 @@
       "id": 18,
       "image": "https://onlineimg.pages.dev/products/img3.png",
       "name": "Women's Badge of Sport Tee",
-      "price": 39.90,
+      "price": 39.9,
       "brand": "Adidas",
       "status": "in stock",
       "rate": "60% off"
     },
-    
     {
       "id": 19,
       "image": "https://onlineimg.pages.dev/products/img4.png",
       "name": "Men's 1950s Sportswear T-Shirt",
-      "price": 39.90,
+      "price": 39.9,
       "brand": "Levi s",
       "status": "in stock",
       "rate": "60% off"
@@ -183,17 +194,16 @@
       "id": 20,
       "image": "https://onlineimg.pages.dev/products/img5.png",
       "name": "Men's Tech 2.0 Short Sleeve T-Shirt",
-      "price": 49.90,
+      "price": 49.9,
       "brand": "Under Armour",
       "status": "in stock",
       "rate": "60% off"
     },
-      
     {
       "id": 21,
       "image": "https://onlineimg.pages.dev/products/img6.png",
       "name": "Women's Basic Tee, Men's Rebel Bold Tee",
-      "price": 9.90,
+      "price": 9.9,
       "brand": "H&M",
       "status": "in stock",
       "rate": "60% off"
@@ -202,7 +212,7 @@
       "id": 22,
       "image": "https://onlineimg.pages.dev/products/img7.png",
       "name": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
-      "price": 39.90,
+      "price": 39.9,
       "brand": "Puma",
       "status": "in stock",
       "rate": "60% off"
@@ -215,6 +225,15 @@
       "brand": "Ralph Lauren",
       "status": "out of stock",
       "rate": "normal rate"
+    },
+    {
+      "name": "Akshar gabani",
+      "price": "500",
+      "img": "https://yt3.googleusercontent.com/ytc/AIf8zZS6XDo-M7dlTyolU_yBAp-cmqn0EfZ8AGkKa9yItg=s900-c-k-c0x00ffffff-no-rj",
+      "brand": "aksh",
+      "status": "50",
+      "rate": "50%",
+      "id": 24
     }
   ]
 }

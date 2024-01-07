@@ -52,12 +52,12 @@ const Login = () => {
 
   return (
     <>
-      {/* Button trigger modal */}
+      
       <button type="button" className="btn btn-danger ms-2 m-1" data-bs-toggle="modal" data-bs-target="#loginModal">
         <span className="fa fa-sign-in me-1"></span> Login
       </button>
 
-      {/* Modal */}
+     
       <div className="modal fade" id="loginModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog">
           <div className="modal-content">
@@ -93,7 +93,7 @@ const Login = () => {
         </div>
       </div>
 
-      {/* Alert modal */}
+      
       
     </>
   );

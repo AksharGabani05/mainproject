@@ -11,8 +11,6 @@ const CartBtn = () => {
             <NavLink to="/cart" className="btn btn-primary ms-2">
                 <span className="fa fa-shopping-cart text-white me-1"></span>
             </NavLink>
-
-            
         </>
     )
 }
