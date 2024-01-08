@@ -5,7 +5,7 @@ import SililarProducts from "../Components/SimilarProducts";
 
 const SingleProduct = () => {
     const [products, setProducts] = useState({});
-    const { id } = useParams(); // Use useParams to get the id from the URL
+    const { id } = useParams(); 
   
     useEffect(() => {
       const fetchData = async () => {
