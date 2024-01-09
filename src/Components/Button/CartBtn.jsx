@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 
 const CartBtn = () => {
@@ -8,9 +8,10 @@ const CartBtn = () => {
     const state = useSelector((state)=> state.addItem)
     return (
         <>
-            <NavLink to="/cart" className="btn btn-primary ms-2">
+            <Link to="/Cart" className="btn btn-primary ms-2">
                 <span className="fa fa-shopping-cart text-white me-1"></span>
-            </NavLink>
+            </Link>
+            
         </>
     )
 }

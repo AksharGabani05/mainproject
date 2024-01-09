@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { BsDiscord } from 'react-icons/bs'
+
 import { Link } from 'react-router-dom';
-import { BsTwitter } from 'react-icons/bs'
-import { BsFacebook } from 'react-icons/bs'
 import { BsSlack, BsGithub } from 'react-icons/bs'
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
 
 import playstore from '../../img/pay/play.jpg'
 import appstore from '../..//img/pay/app.jpg'
@@ -21,18 +22,19 @@ const Footer = () => {
           <div className='mb-3 text-dark'><p><b>Phone:</b>  <a className='footer-tel  text-decoration-none' href="tel:+91 9265947002">Call us at +91 9265947002</a></p> </div>
           <div className='mb-4 text-dark'><p><b>Hours:</b>  From 8 a.m To 6 p.m</p> </div>
           <div className='mb-3 text-dark'><p><b>Follow the developer</b></p> </div>
-          <div className="socials d-flex gap-3">
-          <Link to='' id='footer-link' target='_blank' className='gap-3'>
-          <BsDiscord />
-          </Link>
-          <Link to='' id='footer-link' target='_blank' className='gap-3'>
-          <BsTwitter />
-          </Link>
-          <Link to={''} className='gap-3' id='footer-link'>
+          <div className="socials d-flex gap-3 fs-2">
+          <Link to='https://github.com/AksharGabani05' id='footer-link' target='_blank' className='gap-3'>
           <BsGithub />
           </Link>
-          <Link to='' id='footer-link' target='_blank' className='gap-3'>
-          <BsSlack />
+          <Link to='https://www.instagram.com/akshargabani9/' id='footer-link' target='_blank' className='gap-3'>
+          <FaInstagram />
+          </Link>
+          <Link to={'https://www.linkedin.com/in/akshar-gabani-149477253/'} className='gap-3' id='footer-link'>
+          <FaLinkedin />
+          </Link>
+          <Link to='https://gabaniakshar.pages.dev/' id='footer-link' target='_blank' className='gap-3'>
+          <FaUser />
+
           </Link>
           </div>
         </div>

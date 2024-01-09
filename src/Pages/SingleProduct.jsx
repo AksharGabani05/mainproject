@@ -2,11 +2,14 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import SililarProducts from "../Components/SimilarProducts";
+import { addCart } from "../Redux/Action";
+import { useDispatch } from "react-redux";
 
 const SingleProduct = () => {
     const [products, setProducts] = useState({});
     const { id } = useParams(); 
   
+    
     useEffect(() => {
       const fetchData = async () => {
         axios.get(`http://localhost:8090/products/${id}`)
@@ -21,6 +24,19 @@ const SingleProduct = () => {
       fetchData(); 
     }, [id]);
 
+    const handleCart = async () => {
+      try {
+    
+        await axios.post('http://localhost:8090/cart', products);
+        
+    alert("SuccessFull Added")
+  
+        console.log("Product added to cart:", products);
+      } catch (error) {
+        console.error('Error adding to cart:', error);
+      }
+    };
+  
   
    
   return (
@@ -45,7 +61,7 @@ const SingleProduct = () => {
               <p className="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quibusdam tempore unde aperiam, consectetur harum a eum error, <br /> libero nemo quisquam ex assumenda corrupti rerum aut quod et sint facere reprehenderit?</p>
 
               <div className="d-flex justify-content-center">
-                <button className='btn btn-dark'>Add To Cart</button>
+                <button className='btn btn-dark' onClick={handleCart}>Add To Cart</button>
               </div>
             </div>
           </div>

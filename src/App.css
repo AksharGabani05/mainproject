@@ -284,3 +284,15 @@ footer .pay img:hover {
 .pricetext{
   font-size: 15px;
 }
+
+.blog-wrapper{
+  background: url(../src/img/b19.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+  justify-content: center;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}

@@ -15,6 +15,7 @@ const Signup = () => {
     const [password, setPassword] = React.useState('');
     const [showAlert, setShowAlert] = React.useState(false);
     const [isLoggedIn, setIsLoggedIn] = React.useState(false);
+    const [isRegistered, setIsRegistered] = React.useState(false);
 
     const handleClose = () => setShowAlert(false);
     const handleShow = () => setShowAlert(true);
@@ -25,6 +26,7 @@ const Signup = () => {
             console.log(user.data);
             dispatch(regester(userdata));
             setIsLoggedIn(true);
+            setIsRegistered(true);
             handleShow();
         } catch (error) {
             console.error('Registration failed:', error);
@@ -53,10 +55,21 @@ const Signup = () => {
             });
     };
 
+    const handleLogout = () => {
+        setIsLoggedIn(false);
+        
+    };
+
+
     return (
         <div>
-            
-            <CartBtn/>
+            {isRegistered && (
+                <>
+                    <AddProduct />
+                    <CartBtn />
+                    
+                </>
+            )}
              <Login/>
 
             <button
@@ -64,6 +77,7 @@ const Signup = () => {
                 className={`btn ${isLoggedIn ? 'btn-danger' : 'btn-success'} ms-2`}
                 data-bs-toggle="modal"
                 data-bs-target="#signupModal"
+                onClick={() => setIsLoggedIn(false)}
             >
                 <span className={`fa ${isLoggedIn ? 'fa-sign-out' : 'fa-user-plus'} me-1`}></span>
                 {isLoggedIn ? 'Logout' : 'Register'}
@@ -115,7 +129,9 @@ const Signup = () => {
                                     <input type="checkbox" className="form-check-input" id="exampleCheck1" />
                                     <label className="form-check-label">Check me out</label>
                                 </div>
-                                <button type="submit" className="btn btn-success w-100 mt-3">Register</button>
+                                <button type="submit" className="btn btn-success w-100 mt-3">
+                                {isLoggedIn ? 'Logout' : 'Register'}
+                                </button>
                             </form>
                         </div>
                     </div>

@@ -1,28 +1,22 @@
 {
   "user": [
     {
-      "username": "akshar_gabani__",
+      "username": "Akshar",
       "email": "akshargabanistar945@gmail.com",
-      "password": "9913608443",
+      "password": "998877",
       "id": 1
     },
     {
-      "username": "akshar_gabani__",
-      "email": "akshargabani@gmail.com",
-      "password": "9988",
+      "username": "Akshar Gabani",
+      "email": "pavandhameliya486@gmail.com",
+      "password": "98741236541",
       "id": 2
     },
     {
-      "username": "9913608443",
-      "email": "pavandhameliya486@gmail.com",
-      "password": "/lkjbvc",
-      "id": 3
-    },
-    {
       "username": "Akshar Gabani",
-      "email": "vishalpatel@gmail.com",
-      "password": "9852541254",
-      "id": 4
+      "email": "akshargabani@gmail.com",
+      "password": "988877",
+      "id": 3
     }
   ],
   "products": [
@@ -234,6 +228,42 @@
       "status": "50",
       "rate": "50%",
       "id": 24
+    },
+    {
+      "name": "",
+      "price": "",
+      "img": "",
+      "brand": "",
+      "status": "",
+      "rate": "",
+      "id": 25
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "image": "https://onlineimg.pages.dev/products/f2.jpg",
+      "name": "Men's Dri-FIT T-Shirt",
+      "price": 24.9,
+      "brand": "Nike",
+      "status": "in stock",
+      "rate": "50% Off"
+    },
+    {
+      "id": 5,
+      "image": "https://onlineimg.pages.dev/products/f6.jpg",
+      "name": "Women's Basic Tee, Men's Rebel Bold Tee",
+      "price": 9.9,
+      "brand": "H&M",
+      "status": "in stock",
+      "rate": "50% Off"
+    },
+    {
+      "id": 14,
+      "image": "https://onlineimg.pages.dev/products/n7.jpg",
+      "name": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
+      "price": 39.5,
+      "brand": "Puma"
     }
   ]
 }

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { LOGIN, LOGOUT, REGESTER , ADD_PRODUCT, GET_PRODUCT, SINGLE_PRODUCT} from "./ActionType";
+import { LOGIN, LOGOUT, REGESTER , ADD_PRODUCT, GET_PRODUCT, SINGLE_PRODUCT, ADD_CART, GET_CART, REMOVE_PRODUCT} from "./ActionType";
 
 
 export const regester = (userData) => {
@@ -41,5 +41,35 @@ export const addProduct = (product) => ({
     dispatch({
       type: SINGLE_PRODUCT,
       payload: res.data,
+    });
+  };
+
+  export const addCart = (data) => async (dispatch) => {
+    let res = await axios.post(" http://localhost:8090/cart", data);
+  
+    dispatch({
+      type: ADD_CART,
+      payload: res.data,
+    });
+  };
+  
+  
+  
+  export const GetCart = () => async (dispatch) => {
+    let res = await axios.get("http://localhost:8090/cart");
+    dispatch({
+      type: GET_CART,
+      payload: res.data,
+    });
+  };
+  
+  
+  
+  
+  export const deleteCart = (id) => async (dispatch) => {
+    let res = await axios.delete(`http://localhost:8090/cart/${id}`);
+    dispatch({
+      type: REMOVE_PRODUCT,
+      payload: id,
     });
   };

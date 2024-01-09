@@ -44,7 +44,7 @@ function Product(){
               <p className="card-text mb-2 text-warning"><FaStar /><FaStar /><FaStar /><FaStar /><FaStarHalfStroke /></p>
               <h5 className='mb-3 text-success'>${product.price} <span className='text-warning pricetext'><del>{product.rate}</del></span></h5>
               <div className="card-footer m-auto text-center">
-                <Link to={`/products/${product.id}`}><button className='btn btn-outline-danger'>View product</button></Link><button className='btn btn-outline-success ms-2'><FaCartShopping /> Add to cart</button>
+                <Link to={`/products/${product.id}`}><button className='btn btn-outline-danger'>View product</button></Link>
                 <p className="price"><span className="red"></span> </p>
                 <div className="d-flex justify-content-between align-items-center">
                 </div>
