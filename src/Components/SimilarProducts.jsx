@@ -10,7 +10,7 @@ const SililarProducts = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8090/products');
+        const response = await axios.get('https://onlinedata1.onrender.com/products');
         setProducts(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);

@@ -9,7 +9,7 @@ const Cart = () => {
   useEffect(() => {
     const fetchCartproductss = async () => {
       try {
-        const response = await axios.get('http://localhost:8090/cart');
+        const response = await axios.get('https://onlinedata1.onrender.com/cart');
         setCartproductss(response.data.map(products => ({ ...products, quantity: 1 })));
       } catch (error) {
         console.error('Error fetching cart productss:', error);
@@ -22,7 +22,7 @@ const Cart = () => {
   const handleRemoveproducts = async (id) => {
     try {
      
-      await axios.delete(`http://localhost:8090/cart/${id}`);
+      await axios.delete(`https://onlinedata1.onrender.com/cart/${id}`);
       setCartproductss(cartproductss.filter((products) => products.id !== id));
       console.log(`products with ID ${id} removed from the cart.`);
     } catch (error) {

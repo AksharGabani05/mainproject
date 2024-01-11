@@ -11,7 +11,7 @@ const NewArrivel = () => {
     const fetchData = async () => {
       try {
         // Replace 'http://localhost:3000/products' with the actual URL of your JSON server endpoint
-        const response = await axios.get('http://localhost:8090/products1');
+        const response = await axios.get('https://onlinedata1.onrender.com/products1');
         setProducts1(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);

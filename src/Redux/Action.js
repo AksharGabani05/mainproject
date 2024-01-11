@@ -29,7 +29,7 @@ export const addProduct = (product) => ({
   
  
   export const GetProduct = () => async (dispatch) => {
-    let res = await axios.get("http://localhost:8090/products");
+    let res = await axios.get("https://onlinedata1.onrender.com/products");
     dispatch({
       type: GET_PRODUCT,
       payload: res.data,
@@ -37,7 +37,7 @@ export const addProduct = (product) => ({
   };
 
   export const singleProduct = (id) => async (dispatch) => {
-    let res = await axios.get(`http://localhost:8090/products/${id}`);
+    let res = await axios.get(`https://onlinedata1.onrender.com/products/${id}`);
     dispatch({
       type: SINGLE_PRODUCT,
       payload: res.data,
@@ -45,7 +45,7 @@ export const addProduct = (product) => ({
   };
 
   export const addCart = (data) => async (dispatch) => {
-    let res = await axios.post(" http://localhost:8090/cart", data);
+    let res = await axios.post("https://onlinedata1.onrender.com/cart", data);
   
     dispatch({
       type: ADD_CART,
@@ -56,7 +56,7 @@ export const addProduct = (product) => ({
   
   
   export const GetCart = () => async (dispatch) => {
-    let res = await axios.get("http://localhost:8090/cart");
+    let res = await axios.get("https://onlinedata1.onrender.com/cart");
     dispatch({
       type: GET_CART,
       payload: res.data,
@@ -67,7 +67,7 @@ export const addProduct = (product) => ({
   
   
   export const deleteCart = (id) => async (dispatch) => {
-    let res = await axios.delete(`http://localhost:8090/cart/${id}`);
+    let res = await axios.delete(`https://onlinedata1.onrender.com/cart/${id}`);
     dispatch({
       type: REMOVE_PRODUCT,
       payload: id,

@@ -1,22 +1,58 @@
 {
   "user": [
     {
-      "username": "Akshar",
-      "email": "akshargabanistar945@gmail.com",
-      "password": "998877",
+      "user": {
+        "uid": "wWDhByuidtMUWEYC34ABQNMdopl1",
+        "email": "akshargabani9425@gmail.com",
+        "emailVerified": true,
+        "displayName": "AKSHAR Gabani",
+        "isAnonymous": false,
+        "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocI7uq35UzeFdBq3pydZ1UPxez4Pi60OI52LIg-5XTZR2w=s96-c",
+        "providerData": [
+          {
+            "providerId": "google.com",
+            "uid": "102708475575428468603",
+            "displayName": "AKSHAR Gabani",
+            "email": "akshargabani9425@gmail.com",
+            "phoneNumber": null,
+            "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocI7uq35UzeFdBq3pydZ1UPxez4Pi60OI52LIg-5XTZR2w=s96-c"
+          }
+        ],
+        "stsTokenManager": {
+          "refreshToken": "AMf-vBxBikL6_PSyz31uA7Y_IsgvjaI2Z_GcB7OzUU6Hrs3zoJUhFqJc_uirYwwvwNkwLRFzecJK-yVa3gxY5CaseOaLI5MGBT-1Cz9-zemVV_9Yoaj0kSaHgn37v_sbXeMyeOl5pR9EtjfkmyDgkzFwDz51ZQJMsMz9IQcrOt2d9YdPt1hT5obnvK8eH5BY0KsRqAa_u4U3rVU_XDFti2msDiuxONL8HWUexCmnaRKWKrWdlKDtYrBPz60i_PMjsR_Oth5sgJVAefPkDxSMAdSxAWvn-BdW3VVeIcDAsATUjtzcRd8nsuRnhOgXTukdIuGhh-aj5N9NLhtkt_P-51h1sBLJGdyP4tYD3DiGD-ACXDSIbjQpmHV7Hb-vjBmVr4sLv7Lb-2iUT1abLqbM8Z-j1a-2_oZmcAanzxUS7lDEWp_F0DxI295GIzX22kt2YuNIO9DAmhk8",
+          "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQxNjg5NDE1ZWMyM2EzMzdlMmJiYWE1ZTNlNjhiNjZkYzk5MzY4ODQiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQUtTSEFSIEdhYmFuaSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJN3VxMzVVemVGZEJxM3B5ZFoxVVB4ZXo0UGk2ME9JNTJMSWctNVhUWlIydz1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9hZy1tYXJrZXRpbmctMzIyMmEiLCJhdWQiOiJhZy1tYXJrZXRpbmctMzIyMmEiLCJhdXRoX3RpbWUiOjE3MDQ4NjE1OTMsInVzZXJfaWQiOiJ3V0RoQnl1aWR0TVVXRVlDMzRBQlFOTWRvcGwxIiwic3ViIjoid1dEaEJ5dWlkdE1VV0VZQzM0QUJRTk1kb3BsMSIsImlhdCI6MTcwNDg2MTU5MywiZXhwIjoxNzA0ODY1MTkzLCJlbWFpbCI6ImFrc2hhcmdhYmFuaTk0MjVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDI3MDg0NzU1NzU0Mjg0Njg2MDMiXSwiZW1haWwiOlsiYWtzaGFyZ2FiYW5pOTQyNUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.ECcpzx7_vc1YT94iM3sb-aeUW88kIIankFJLGZFJwrDJvStpGVkaL9nX3POwH9dX6iDuP65penmcA2jc044fI_Q1nsV_yWvSmBO-AuuXz9wJqssTGeiRdB6Fphn0Rmbt4wFTWaRCkdKECNossoz551oR9bR4h3PMIWdFqL7FKGmhd0Yy8qE_v0yGax-fSqrioBKX9FqNzJmGZrsqGo02ZnYsHh_7uw8czqVON_hisdhVgKor5ScBXAje_6qOGEwSsRgoqdUAyAqx8LsUuKA36E5NzSG_42V7hhETymkqKqNHhtk5Cmj4c0qF75V9BQBjQ1akR-dEqIQzRG3Pd4dzZA",
+          "expirationTime": 1704865190177
+        },
+        "createdAt": "1704861592968",
+        "lastLoginAt": "1704861592968",
+        "apiKey": "AIzaSyB9D_SWpQCmMnbw9ygsUZFiva4TQN_SzTk",
+        "appName": "[DEFAULT]"
+      },
+      "providerId": "google.com",
+      "_tokenResponse": {
+        "federatedId": "https://accounts.google.com/102708475575428468603",
+        "providerId": "google.com",
+        "email": "akshargabani9425@gmail.com",
+        "emailVerified": true,
+        "firstName": "AKSHAR",
+        "fullName": "AKSHAR Gabani",
+        "lastName": "Gabani",
+        "photoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI7uq35UzeFdBq3pydZ1UPxez4Pi60OI52LIg-5XTZR2w=s96-c",
+        "localId": "wWDhByuidtMUWEYC34ABQNMdopl1",
+        "displayName": "AKSHAR Gabani",
+        "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQxNjg5NDE1ZWMyM2EzMzdlMmJiYWE1ZTNlNjhiNjZkYzk5MzY4ODQiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQUtTSEFSIEdhYmFuaSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJN3VxMzVVemVGZEJxM3B5ZFoxVVB4ZXo0UGk2ME9JNTJMSWctNVhUWlIydz1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9hZy1tYXJrZXRpbmctMzIyMmEiLCJhdWQiOiJhZy1tYXJrZXRpbmctMzIyMmEiLCJhdXRoX3RpbWUiOjE3MDQ4NjE1OTMsInVzZXJfaWQiOiJ3V0RoQnl1aWR0TVVXRVlDMzRBQlFOTWRvcGwxIiwic3ViIjoid1dEaEJ5dWlkdE1VV0VZQzM0QUJRTk1kb3BsMSIsImlhdCI6MTcwNDg2MTU5MywiZXhwIjoxNzA0ODY1MTkzLCJlbWFpbCI6ImFrc2hhcmdhYmFuaTk0MjVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDI3MDg0NzU1NzU0Mjg0Njg2MDMiXSwiZW1haWwiOlsiYWtzaGFyZ2FiYW5pOTQyNUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.ECcpzx7_vc1YT94iM3sb-aeUW88kIIankFJLGZFJwrDJvStpGVkaL9nX3POwH9dX6iDuP65penmcA2jc044fI_Q1nsV_yWvSmBO-AuuXz9wJqssTGeiRdB6Fphn0Rmbt4wFTWaRCkdKECNossoz551oR9bR4h3PMIWdFqL7FKGmhd0Yy8qE_v0yGax-fSqrioBKX9FqNzJmGZrsqGo02ZnYsHh_7uw8czqVON_hisdhVgKor5ScBXAje_6qOGEwSsRgoqdUAyAqx8LsUuKA36E5NzSG_42V7hhETymkqKqNHhtk5Cmj4c0qF75V9BQBjQ1akR-dEqIQzRG3Pd4dzZA",
+        "context": "",
+        "oauthAccessToken": "ya29.a0AfB_byDayC8AEbeEgHx39M6Q9HLOHVnksdNTvdp3DlkBvGj_yc2tl3QbECtQxAgNFAbSx-1dsmHFSzznITmLQbZ2SFmlYR8cQEztuW9tTnKP5dQqtD7_NYxGZ09toPKIsFXXgyYFCj4ohqOjOX4C-EiZ-MskAC1OU1ICaCgYKAfISARESFQHGX2MiaNL7SREDgxkVtxs0uqGRog0171",
+        "oauthExpireIn": 3599,
+        "refreshToken": "AMf-vBxBikL6_PSyz31uA7Y_IsgvjaI2Z_GcB7OzUU6Hrs3zoJUhFqJc_uirYwwvwNkwLRFzecJK-yVa3gxY5CaseOaLI5MGBT-1Cz9-zemVV_9Yoaj0kSaHgn37v_sbXeMyeOl5pR9EtjfkmyDgkzFwDz51ZQJMsMz9IQcrOt2d9YdPt1hT5obnvK8eH5BY0KsRqAa_u4U3rVU_XDFti2msDiuxONL8HWUexCmnaRKWKrWdlKDtYrBPz60i_PMjsR_Oth5sgJVAefPkDxSMAdSxAWvn-BdW3VVeIcDAsATUjtzcRd8nsuRnhOgXTukdIuGhh-aj5N9NLhtkt_P-51h1sBLJGdyP4tYD3DiGD-ACXDSIbjQpmHV7Hb-vjBmVr4sLv7Lb-2iUT1abLqbM8Z-j1a-2_oZmcAanzxUS7lDEWp_F0DxI295GIzX22kt2YuNIO9DAmhk8",
+        "expiresIn": "3600",
+        "oauthIdToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNDEzY2Y0ZmEwY2I5MmEzYzNmNWEwNTQ1MDkxMzJjNDc2NjA5MzciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiMzIwNzUyNzEyNTI1LWZqMG9wdmU1b2l2aGFoYzQwMWlpdXBhYTE3dmtxc2pnLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMzIwNzUyNzEyNTI1LWZqMG9wdmU1b2l2aGFoYzQwMWlpdXBhYTE3dmtxc2pnLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAyNzA4NDc1NTc1NDI4NDY4NjAzIiwiZW1haWwiOiJha3NoYXJnYWJhbmk5NDI1QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoib0tCZmEtamg1MDBjcmE4bkd1cFdBUSIsImlhdCI6MTcwNDg2MTU5MiwiZXhwIjoxNzA0ODY1MTkyfQ.KcrCUEh4Uyb-0H0RhMT_Mwh2CHtieHXqoAuPYmJfT8zPgWVrDo-KsMUMtoHaoOw-bEVZDdDZxPNtMJ9Zp3-aX1HNvjz5jtfxECF2V4bK_9gyJfqB0Cp9AhGDhfP90H-XwXrO_UCBe0pGAD6dbkG0MNbH6BM-9StZtUwOGFd2BTs4hS47lopb9ZLgQ1db-OSleklR4CSyQPeDrE1U-5lRzz55lt3N0lYoj5p0AmOqFp0RD4QnmCm-zBY-gtPE73hcTypdj6yJVdWTJi0BIgtfoTNHhaqtO-pkTnNQBt3CZWmeNIU4f09UPhoEi6qc5TturID1CKcM_sQ6g32VI56tXQ",
+        "rawUserInfo": "{\"name\":\"AKSHAR Gabani\",\"granted_scopes\":\"https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid\",\"id\":\"102708475575428468603\",\"verified_email\":true,\"given_name\":\"AKSHAR\",\"locale\":\"en\",\"family_name\":\"Gabani\",\"email\":\"akshargabani9425@gmail.com\",\"picture\":\"https://lh3.googleusercontent.com/a/ACg8ocI7uq35UzeFdBq3pydZ1UPxez4Pi60OI52LIg-5XTZR2w=s96-c\"}",
+        "isNewUser": true,
+        "kind": "identitytoolkit#VerifyAssertionResponse"
+      },
+      "operationType": "signIn",
       "id": 1
-    },
-    {
-      "username": "Akshar Gabani",
-      "email": "pavandhameliya486@gmail.com",
-      "password": "98741236541",
-      "id": 2
-    },
-    {
-      "username": "Akshar Gabani",
-      "email": "akshargabani@gmail.com",
-      "password": "988877",
-      "id": 3
     }
   ],
   "products": [
@@ -241,29 +277,11 @@
   ],
   "cart": [
     {
-      "id": 1,
-      "image": "https://onlineimg.pages.dev/products/f2.jpg",
-      "name": "Men's Dri-FIT T-Shirt",
-      "price": 24.9,
-      "brand": "Nike",
-      "status": "in stock",
-      "rate": "50% Off"
-    },
-    {
-      "id": 5,
-      "image": "https://onlineimg.pages.dev/products/f6.jpg",
-      "name": "Women's Basic Tee, Men's Rebel Bold Tee",
-      "price": 9.9,
-      "brand": "H&M",
-      "status": "in stock",
-      "rate": "50% Off"
-    },
-    {
-      "id": 14,
-      "image": "https://onlineimg.pages.dev/products/n7.jpg",
-      "name": "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
-      "price": 39.5,
-      "brand": "Puma"
+      "id": 10,
+      "image": "https://onlineimg.pages.dev/products/n3.jpg",
+      "name": "Women's Badge of Sport Tee",
+      "price": 39.9,
+      "brand": "Adidas"
     }
   ]
 }

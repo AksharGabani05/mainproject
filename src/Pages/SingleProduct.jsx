@@ -12,7 +12,7 @@ const SingleProduct = () => {
     
     useEffect(() => {
       const fetchData = async () => {
-        axios.get(`http://localhost:8090/products/${id}`)
+        axios.get(`https://onlinedata1.onrender.com/products/${id}`)
           .then(response => {
             setProducts(response.data);
           })
@@ -27,7 +27,7 @@ const SingleProduct = () => {
     const handleCart = async () => {
       try {
     
-        await axios.post('http://localhost:8090/cart', products);
+        await axios.post('https://onlinedata1.onrender.com/cart', products);
         
     alert("SuccessFull Added")
   

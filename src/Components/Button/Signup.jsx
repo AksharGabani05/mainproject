@@ -6,6 +6,8 @@ import { Modal, Button } from 'react-bootstrap';
 import Login from './Login';
 import CartBtn from './CartBtn';
 import AddProduct from '../../Pages/AddProduct';
+import { GoogleAuth } from './Config';
+import {auth,provider} from "firebase/auth"
 
 
 const Signup = () => {
@@ -32,6 +34,8 @@ const Signup = () => {
             console.error('Registration failed:', error);
         }
     };
+
+
 
     const handalesubmit = (e) => {
         e.preventDefault();
@@ -61,15 +65,28 @@ const Signup = () => {
     };
 
 
+    // const handlegoogle = ()=>{
+    //     GoogleAuth(auth,provider).then((data)=>{
+    //         axios.post('http://localhost:8090/user', data)
+    //         .then(response => {
+    //             console.log('Data added to JSON server:', response.data);
+    //         })
+    //         .catch(error => {
+    //             console.error('Error adding data to JSON server:', error);
+    //         });
+    //     })
+    // }
+
     return (
         <div>
             {isRegistered && (
                 <>
                     <AddProduct />
-                    <CartBtn />
+                    
                     
                 </>
             )}
+            <CartBtn />
              <Login/>
 
             <button
@@ -105,7 +122,7 @@ const Signup = () => {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            <button className="btn btn-danger w-100 mb-4">
+                            <button className="btn btn-danger w-100 mb-4"> 
                                 <span className=" me-2"></span> Sign up With Google
                             </button>
                             <button className="btn btn-primary w-100 mb-4">
